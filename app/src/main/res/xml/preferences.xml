@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="pref_colour"
+        android:title="Draw Colour"
+        android:dialogTitle="Draw Colour"
+        android:entries="@array/coloursUser"
+        android:entryValues="@array/coloursInternal"
+        android:defaultValue="k"
+        />
+    <ListPreference
+        android:key="pref_width"
+        android:title="Draw Width"
+        android:dialogTitle="Draw Width"
+        android:entries="@array/widthUser"
+        android:entryValues="@array/widthInternal"
+        android:defaultValue="15"
+        />
+
+</PreferenceScreen>

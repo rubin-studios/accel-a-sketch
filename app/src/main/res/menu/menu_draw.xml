@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/resume"
+        android:title="Resume" />
+    <item android:id="@+id/colour"
+        android:title="Draw Colour">
+        <menu>
+            <item android:id="@+id/colourRed"
+                android:title="Red" />
+            <item android:id="@+id/colourGreen"
+                android:title="Green" />
+            <item android:id="@+id/colourBlue"
+                android:title="Blue" />
+            <item android:id="@+id/colourCyan"
+                android:title="Cyan" />
+            <item android:id="@+id/colourMagenta"
+                android:title="Magenta" />
+            <item android:id="@+id/colourYellow"
+                android:title="Yellow" />
+            <item android:id="@+id/colourBlack"
+                android:title="Black (default)" />
+        </menu>
+    </item>
+    <item android:id="@+id/width"
+        android:title="Draw Width">
+        <menu>
+            <item android:id="@+id/width05"
+                android:title="1" />
+            <item android:id="@+id/width15"
+                android:title="2" />
+            <item android:id="@+id/width25"
+                android:title="3" />
+            <item android:id="@+id/width35"
+                android:title="4" />
+            <item android:id="@+id/width45"
+                android:title="5" />
+        </menu>
+    </item>
+    <item android:id="@+id/speedmult"
+        android:title="Draw Speed">
+        <menu>
+            <item android:id="@+id/speedHalf"
+                android:title="50%"/>
+            <item android:id="@+id/speedStd"
+                android:title="Standard"/>
+            <item android:id="@+id/speed1.5"
+                android:title="150%"/>
+            <item android:id="@+id/speedDouble"
+                android:title="200%"/>
+        </menu>
+    </item>
+</menu>
